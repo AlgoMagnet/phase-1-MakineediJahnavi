@@ -1,0 +1,2 @@
+14thJune,2021:
+Started reading README.md file and learned few basic about github.
