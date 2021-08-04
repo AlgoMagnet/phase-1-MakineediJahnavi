@@ -24,13 +24,16 @@ Arithmetic statement in C could be of three types.
 * An operation between a real and real yields a real result.
 * An operation between a real and an integer yields a real result. In this operation first integer is promoted to real and then operation is performed.
 ## Hierarchy of Operations
-`Priority  Operators  Description
+ ```
+ Priority  Operators  Description
 
  1st       * / %      Multiplication, Division, Modular division
  
  2nd       + -        Addition, Subtraction
  
- 3rd       =          Assignment` 
+ 3rd       =          Assignment
+ 
+ ```
      
 ## Associativity of Operators
 When an expression contains two operators of equal priority then associativity of operators is used.All operators in C either have Left to Right associativity or Right to Left associativity and they are used according to the expression.
