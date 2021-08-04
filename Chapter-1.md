@@ -24,3 +24,35 @@ Real constents are also called as Floating point numbers. Real constants can be 
 * Character Constant should be enclosed in single inverted commas.
 #### Examples
          'a' '34' '%'
+## Variables of C
+Data stored in a variable can be changed at any time. Particular kind of variable takes only particular kind of data. So declaration of variable is must.
+### Type declaration 
+     int age; (For integers)
+     float s_p; (For floating point numbers)
+     char name1; (For characters)
+* A variable name can contain alphabets, digits and underscores.
+* Variable names can only start with alphabet or underscore(_).
+* Keywords cannot be used as variable name.
+## Comments
+Comments are used to increase readability of code and to mention the purpose of a statement. Comments are optional.We can add comments anywhere in a program.
+### Comments are written as
+      // Single line comment
+      /* Multiple 
+         line
+         comment */
+## main()
+main() is a library function. It contains all the statements of the program and statements must be written in pair of braces {}. main() function always returns integer value.
+## printf()
+printf() is used to print outputs. #include<stdio.h> is necessary at the beginning to use printf().
+### General form of printf()
+      printf("Enter integer : %d",n);
+### Format specifiers
+      %d for integers
+      %f for floating point numbers
+      %c for characters
+## Scanf()
+scanf() is used to give input from the keyboard.
+### scanf() is used as
+      printf("Enter value of n : ");
+      scanf("%d",&n);
+
