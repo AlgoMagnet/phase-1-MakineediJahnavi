@@ -55,4 +55,5 @@ scanf() is used to give input from the keyboard.
 ### scanf() is used as
       printf("Enter value of n : ");
       scanf("%d",&n);
+[Programs](https://github.com/MakineediJahnavi/Learning-C/tree/main/CHAPTER-1)
 
